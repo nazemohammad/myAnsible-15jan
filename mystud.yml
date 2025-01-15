@@ -1,0 +1,24 @@
+---
+- my students 
+ - name : naz
+   phno : 5678
+   addr : 
+      drn : 01
+      strt : 2th
+      pc : 12345
+
+
+  -name : sam    
+   phno : 6789
+   addr : 
+      drn : 03
+      strt : 4th
+      pc : 23456
+
+
+  -name : jam  
+   phno : 7890
+   addr : 
+      drn : 05
+      strt : 6th
+      pc : 34567 
