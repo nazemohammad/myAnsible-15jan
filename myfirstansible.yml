@@ -10,8 +10,8 @@
      when: ansible_os_family=="Debian"
 
    - name: i want to start webserver (service apache2 start)
-     service: "{{mywebpackonubuntu}}"
-      name: apache2
+     service: 
+      name: "{{mywebpackonubuntu}}"
       state: started
      when: ansible_os_family=="Debian"
 
