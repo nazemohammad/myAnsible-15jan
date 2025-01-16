@@ -1,1 +1,9 @@
+
+[mywebservers]
 10.0.0.5
+
+
+[mywebservers:vars]
+key=values
+mywebpackonubuntu=apache2
+mywebpacknRedhat=httpd
