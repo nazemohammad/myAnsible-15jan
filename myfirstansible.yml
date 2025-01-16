@@ -20,3 +20,9 @@
        name: httpd 
        state: present
      when: ansible_os_family=="Redhat"
+
+   - name: install httpd webserver on Redhat node
+     service: 
+       name: httpd 
+       state: started
+     when: ansible_os_family=="Redhat"
