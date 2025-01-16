@@ -5,5 +5,3 @@
 
 [mywebservers:vars]
 key=values
-mywebpackonubuntu=apache2
-mywebpacknRedhat=httpd
