@@ -3,7 +3,7 @@
   become: yes
   tasks: 
    -name: install java on ubuntu
-    apt:
+     apt:
       name: "{{myjavapackonubuntu}}"
       state: present
      when: ansible_os_family=="Debian"
