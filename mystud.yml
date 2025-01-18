@@ -1,5 +1,5 @@
 ---
-- my students 
+- my students
  - name : naz
    phno : 5678
    addr : 
@@ -8,7 +8,7 @@
       pc : 12345
 
 
-  -name : sam    
+  -name : sam
    phno : 6789
    addr : 
       drn : 03
@@ -16,7 +16,7 @@
       pc : 23456
 
 
-  -name : jam  
+  -name : jam
    phno : 7890
    addr : 
       drn : 05
