@@ -13,3 +13,9 @@
        src: mystaticfile
        dest: /home/naz/myfolder/mystaticfile   
 
+    - name: download internet files
+      get_url:
+         url: https://www.google.com/url?sa=i&url=https%3A%2F%2Frobbreport.com%2Fmotors%2Fcars%2Fferrari-launch-new-cars-2024-1235497186%2F&psig=AOvVaw1OhbpAn9S__LOhCycZREZW&ust=1737490844542000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNilx_6PhYsDFQAAAAAdAAAAABAE
+         dest: /home/naz/myfolder/myfile.yml
+         force_basic_auth: yes 
+
