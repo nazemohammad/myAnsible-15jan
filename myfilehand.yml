@@ -19,3 +19,8 @@
          dest: /home/naz/myfolder/myfile.yml
          force_basic_auth: yes 
 
+    - name: install a webserver
+      apt:
+        name: apache2
+        state: present     
+
