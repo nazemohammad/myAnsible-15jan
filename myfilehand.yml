@@ -24,3 +24,9 @@
         name: apache2
         state: present     
 
+    - name: i want to copy file into node side
+      template:
+          src: myinde.j2
+          dest: /var/www/html/index.html
+
+
