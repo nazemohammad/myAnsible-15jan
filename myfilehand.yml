@@ -28,7 +28,8 @@
       template:
           src: myinde.j2
           dest: /var/www/html/index.html
-          notify: startwebserver
+  
+      notify: startwebserver
 
 
       handlers:
